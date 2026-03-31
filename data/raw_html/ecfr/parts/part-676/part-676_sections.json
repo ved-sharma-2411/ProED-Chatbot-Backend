@@ -1,0 +1,812 @@
+{
+  "part": "676",
+  "part_url": "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-676",
+  "source_type": "cfr",
+  "authority_level": "regulation",
+  "ingestion_date": "2026-03-30",
+  "sections": [
+    {
+      "section": "676.1",
+      "heading": "§ 676.1 Purpose and identification of common provisions.",
+      "paragraphs": [
+        {
+          "id": "p-676.1(a)",
+          "text": "(a) The Federal Supplemental Educational Opportunity Grant (FSEOG) Program awards grants to financially needy students attending institutions of higher education to help them pay their educational costs."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.1(a)",
+          "label": "a",
+          "text": "(a) The Federal Supplemental Educational Opportunity Grant (FSEOG) Program awards grants to financially needy students attending institutions of higher education to help them pay their educational costs.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.1",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.1",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.1 Purpose and identification of common provisions.",
+      "section_ref": "§676.1",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.2",
+      "heading": "§ 676.2 Definitions.",
+      "paragraphs": [
+        {
+          "id": "p-676.2(a)",
+          "text": "(a) The definitions of the following terms used in this part are set forth in subpart A of the Student Assistance General Provisions, 34 CFR part 668: Academic Competitiveness Grant (ACG) Program Academic year Award year Clock hour Enrolled Expected family contribution (EFC) Federal Family Education Loan (FFEL) Federal Pell Grant Program Federal Perkins Loan Program Federal PLUS Program Federal SLS Program Federal Work-Study (FWS) Program Full-time student HEA National Science and Mathematics Access to Retain Talent Grant (National SMART Grant) Program Payment period Secretary Teacher Education Assistance for College and Higher Education (TEACH) Grant Program TEACH Grant Undergraduate student"
+        },
+        {
+          "id": "p-676.2(b)",
+          "text": "(b) The Secretary defines other terms used in this part as follows: *Financial need: The difference between a student's cost of attendance and his or her EFC."
+        },
+        {
+          "id": "p-676.2(b)(%2AFinancial%20need)",
+          "text": "*Financial need: The difference between a student's cost of attendance and his or her EFC."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.2(a)",
+          "label": "a",
+          "text": "(a) The definitions of the following terms used in this part are set forth in subpart A of the Student Assistance General Provisions, 34 CFR part 668: Academic Competitiveness Grant (ACG) Program Academic year Award year Clock hour Enrolled Expected family contribution (EFC) Federal Family Education Loan (FFEL) Federal Pell Grant Program Federal Perkins Loan Program Federal PLUS Program Federal SLS Program Federal Work-Study (FWS) Program Full-time student HEA National Science and Mathematics Access to Retain Talent Grant (National SMART Grant) Program Payment period Secretary Teacher Education Assistance for College and Higher Education (TEACH) Grant Program TEACH Grant Undergraduate student",
+          "children": []
+        },
+        {
+          "id": "p-676.2(b)",
+          "label": "b",
+          "text": "(b) The Secretary defines other terms used in this part as follows: *Financial need: The difference between a student's cost of attendance and his or her EFC.",
+          "children": [
+            {
+              "id": "p-676.2(b)(%2AFinancial%20need)",
+              "label": "%2AFinancial%20need",
+              "text": "*Financial need: The difference between a student's cost of attendance and his or her EFC.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.2",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.2",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.2 Definitions.",
+      "section_ref": "§676.2",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.8",
+      "heading": "§ 676.8 Program participation agreement.",
+      "paragraphs": [
+        {
+          "id": "p-676.8(a)",
+          "text": "(a) Use the funds it receives solely for the purposes specified in this part; and"
+        },
+        {
+          "id": "p-676.8(b)",
+          "text": "(b) Administer the FSEOG program in accordance with the HEA, the provisions of this part, and the Student Assistance General Provisions regulations, 34 CFR part 668."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.8(a)",
+          "label": "a",
+          "text": "(a) Use the funds it receives solely for the purposes specified in this part; and",
+          "children": []
+        },
+        {
+          "id": "p-676.8(b)",
+          "label": "b",
+          "text": "(b) Administer the FSEOG program in accordance with the HEA, the provisions of this part, and the Student Assistance General Provisions regulations, 34 CFR part 668.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.8",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.8",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.8 Program participation agreement.",
+      "section_ref": "§676.8",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.9",
+      "heading": "§ 676.9 Student eligibility.",
+      "paragraphs": [
+        {
+          "id": "p-676.9(a)",
+          "text": "(a) Meets the relevant eligibility requirements contained in 34 CFR 668.32;"
+        },
+        {
+          "id": "p-676.9(b)",
+          "text": "(b) Is enrolled or accepted for enrollment as an undergraduate student at the institution; and"
+        },
+        {
+          "id": "p-676.9(c)",
+          "text": "(c) Has financial need as determined in accordance with part F of title IV of the HEA."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.9(a)",
+          "label": "a",
+          "text": "(a) Meets the relevant eligibility requirements contained in 34 CFR 668.32;",
+          "children": []
+        },
+        {
+          "id": "p-676.9(b)",
+          "label": "b",
+          "text": "(b) Is enrolled or accepted for enrollment as an undergraduate student at the institution; and",
+          "children": []
+        },
+        {
+          "id": "p-676.9(c)",
+          "label": "c",
+          "text": "(c) Has financial need as determined in accordance with part F of title IV of the HEA.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.9",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.9",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.9 Student eligibility.",
+      "section_ref": "§676.9",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.10",
+      "heading": "§ 676.10 Selection of students for FSEOG awards.",
+      "paragraphs": [
+        {
+          "id": "p-676.10(a)",
+          "text": "(a) (1) In selecting among eligible students for FSEOG awards in each award year, an institution shall select those students with the lowest expected family contributions who will also receive Federal Pell Grants in that year. (2) If the institution has FSEOG funds remaining after giving FSEOG awards to all the Federal Pell Grant recipients at the institution, the institution shall award the remaining FSEOG funds to those eligible students with the lowest expected family contributions who will not receive Federal Pell Grants."
+        },
+        {
+          "id": "p-676.10(a)(1)",
+          "text": "(1) In selecting among eligible students for FSEOG awards in each award year, an institution shall select those students with the lowest expected family contributions who will also receive Federal Pell Grants in that year."
+        },
+        {
+          "id": "p-676.10(a)(2)",
+          "text": "(2) If the institution has FSEOG funds remaining after giving FSEOG awards to all the Federal Pell Grant recipients at the institution, the institution shall award the remaining FSEOG funds to those eligible students with the lowest expected family contributions who will not receive Federal Pell Grants."
+        },
+        {
+          "id": "p-676.10(b)",
+          "text": "(b) Part-time and independent students. If an institution's allocation of FSEOG funds is directly or indirectly based in part on the financial need demonstrated by students attending the institution as less-than-full-time or independent students, a reasonable portion of the allocation must be offered to those students."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.10(a)",
+          "label": "a",
+          "text": "(a) (1) In selecting among eligible students for FSEOG awards in each award year, an institution shall select those students with the lowest expected family contributions who will also receive Federal Pell Grants in that year. (2) If the institution has FSEOG funds remaining after giving FSEOG awards to all the Federal Pell Grant recipients at the institution, the institution shall award the remaining FSEOG funds to those eligible students with the lowest expected family contributions who will not receive Federal Pell Grants.",
+          "children": [
+            {
+              "id": "p-676.10(a)(1)",
+              "label": "1",
+              "text": "(1) In selecting among eligible students for FSEOG awards in each award year, an institution shall select those students with the lowest expected family contributions who will also receive Federal Pell Grants in that year.",
+              "children": []
+            },
+            {
+              "id": "p-676.10(a)(2)",
+              "label": "2",
+              "text": "(2) If the institution has FSEOG funds remaining after giving FSEOG awards to all the Federal Pell Grant recipients at the institution, the institution shall award the remaining FSEOG funds to those eligible students with the lowest expected family contributions who will not receive Federal Pell Grants.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.10(b)",
+          "label": "b",
+          "text": "(b) Part-time and independent students. If an institution's allocation of FSEOG funds is directly or indirectly based in part on the financial need demonstrated by students attending the institution as less-than-full-time or independent students, a reasonable portion of the allocation must be offered to those students.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.10",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.10",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.10 Selection of students for FSEOG awards.",
+      "section_ref": "§676.10",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.16",
+      "heading": "§ 676.16 Payment of an FSEOG.",
+      "paragraphs": [
+        {
+          "id": "p-676.16(a)",
+          "text": "(a) (1) Except as provided in paragraphs (b) and (e) of this section, an institution shall pay in each payment period a portion of an FSEOG awarded for a full academic year. (2) The institution shall determine the amount paid each payment period by the following fraction: FSEOG ———— N where: FSEOG = the total FSEOG awarded for an academic year and N = the number of payment periods that the institution expects the student will attend in that year. (3) An institution may pay the student, within each payment period, at such times and in such amounts as it determines best meets the student's needs."
+        },
+        {
+          "id": "p-676.16(a)(1)",
+          "text": "(1) Except as provided in paragraphs (b) and (e) of this section, an institution shall pay in each payment period a portion of an FSEOG awarded for a full academic year."
+        },
+        {
+          "id": "p-676.16(a)(2)",
+          "text": "(2) The institution shall determine the amount paid each payment period by the following fraction: FSEOG ———— N where: FSEOG = the total FSEOG awarded for an academic year and N = the number of payment periods that the institution expects the student will attend in that year."
+        },
+        {
+          "id": "p-676.16(a)(3)",
+          "text": "(3) An institution may pay the student, within each payment period, at such times and in such amounts as it determines best meets the student's needs."
+        },
+        {
+          "id": "p-676.16(b)",
+          "text": "(b) If a student incurs uneven cost or estimated financial assistance amounts during an academic year and needs additional funds in a particular payment period, the institution may pay FSEOG funds to the student for those uneven costs."
+        },
+        {
+          "id": "p-676.16(c)",
+          "text": "(c) An institution shall disburse funds to a student or the student's account in accordance with the provisions in § 668.164."
+        },
+        {
+          "id": "p-676.16(d)",
+          "text": "(d) (1) The institution shall return to the FSEOG account any funds paid to a student who, before the first day of classes— (i) Officially or unofficially withdraws; or (ii) Is expelled. (2) A student who does not begin class attendance is deemed to have withdrawn."
+        },
+        {
+          "id": "p-676.16(d)(1)",
+          "text": "(1) The institution shall return to the FSEOG account any funds paid to a student who, before the first day of classes— (i) Officially or unofficially withdraws; or (ii) Is expelled."
+        },
+        {
+          "id": "p-676.16(d)(1)(i)",
+          "text": "(i) Officially or unofficially withdraws; or"
+        },
+        {
+          "id": "p-676.16(d)(1)(ii)",
+          "text": "(ii) Is expelled."
+        },
+        {
+          "id": "p-676.16(d)(2)",
+          "text": "(2) A student who does not begin class attendance is deemed to have withdrawn."
+        },
+        {
+          "id": "p-676.16(e)",
+          "text": "(e) A correspondence student shall submit his or her first completed lesson before receiving an FSEOG payment."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.16(a)",
+          "label": "a",
+          "text": "(a) (1) Except as provided in paragraphs (b) and (e) of this section, an institution shall pay in each payment period a portion of an FSEOG awarded for a full academic year. (2) The institution shall determine the amount paid each payment period by the following fraction: FSEOG ———— N where: FSEOG = the total FSEOG awarded for an academic year and N = the number of payment periods that the institution expects the student will attend in that year. (3) An institution may pay the student, within each payment period, at such times and in such amounts as it determines best meets the student's needs.",
+          "children": [
+            {
+              "id": "p-676.16(a)(1)",
+              "label": "1",
+              "text": "(1) Except as provided in paragraphs (b) and (e) of this section, an institution shall pay in each payment period a portion of an FSEOG awarded for a full academic year.",
+              "children": []
+            },
+            {
+              "id": "p-676.16(a)(2)",
+              "label": "2",
+              "text": "(2) The institution shall determine the amount paid each payment period by the following fraction: FSEOG ———— N where: FSEOG = the total FSEOG awarded for an academic year and N = the number of payment periods that the institution expects the student will attend in that year.",
+              "children": []
+            },
+            {
+              "id": "p-676.16(a)(3)",
+              "label": "3",
+              "text": "(3) An institution may pay the student, within each payment period, at such times and in such amounts as it determines best meets the student's needs.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.16(b)",
+          "label": "b",
+          "text": "(b) If a student incurs uneven cost or estimated financial assistance amounts during an academic year and needs additional funds in a particular payment period, the institution may pay FSEOG funds to the student for those uneven costs.",
+          "children": []
+        },
+        {
+          "id": "p-676.16(c)",
+          "label": "c",
+          "text": "(c) An institution shall disburse funds to a student or the student's account in accordance with the provisions in § 668.164.",
+          "children": []
+        },
+        {
+          "id": "p-676.16(d)",
+          "label": "d",
+          "text": "(d) (1) The institution shall return to the FSEOG account any funds paid to a student who, before the first day of classes— (i) Officially or unofficially withdraws; or (ii) Is expelled. (2) A student who does not begin class attendance is deemed to have withdrawn.",
+          "children": [
+            {
+              "id": "p-676.16(d)(1)",
+              "label": "1",
+              "text": "(1) The institution shall return to the FSEOG account any funds paid to a student who, before the first day of classes— (i) Officially or unofficially withdraws; or (ii) Is expelled.",
+              "children": [
+                {
+                  "id": "p-676.16(d)(1)(i)",
+                  "label": "i",
+                  "text": "(i) Officially or unofficially withdraws; or",
+                  "children": []
+                },
+                {
+                  "id": "p-676.16(d)(1)(ii)",
+                  "label": "ii",
+                  "text": "(ii) Is expelled.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "p-676.16(d)(2)",
+              "label": "2",
+              "text": "(2) A student who does not begin class attendance is deemed to have withdrawn.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.16(e)",
+          "label": "e",
+          "text": "(e) A correspondence student shall submit his or her first completed lesson before receiving an FSEOG payment.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.16",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.16",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.16 Payment of an FSEOG.",
+      "section_ref": "§676.16",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.18",
+      "heading": "§ 676.18 Use of funds.",
+      "paragraphs": [
+        {
+          "id": "p-676.18(a)",
+          "text": "(a) General. An institution may use its FSEOG allocation and reallocation only for— (1) Making grants to eligible students; and (2) Paying administrative expenses as provided for in 34 CFR 673.7."
+        },
+        {
+          "id": "p-676.18(a)(1)",
+          "text": "(1) Making grants to eligible students; and"
+        },
+        {
+          "id": "p-676.18(a)(2)",
+          "text": "(2) Paying administrative expenses as provided for in 34 CFR 673.7."
+        },
+        {
+          "id": "p-676.18(b)",
+          "text": "(b) Transfer back of funds to FWS. An institution shall transfer back to the FWS program any funds unexpended at the end of the award year that it transferred to the FSEOG program from the FWS program."
+        },
+        {
+          "id": "p-676.18(c)",
+          "text": "(c) Carry forward funds. (1) An institution may carry forward and expend in the next award year up to 10 percent of the sum of its initial and supplemental FSEOG allocations for the current award year. (2) Before an institution may spend its current year FSEOG allocation, it must spend any funds carried forward from the previous year."
+        },
+        {
+          "id": "p-676.18(c)(1)",
+          "text": "(1) An institution may carry forward and expend in the next award year up to 10 percent of the sum of its initial and supplemental FSEOG allocations for the current award year."
+        },
+        {
+          "id": "p-676.18(c)(2)",
+          "text": "(2) Before an institution may spend its current year FSEOG allocation, it must spend any funds carried forward from the previous year."
+        },
+        {
+          "id": "p-676.18(d)",
+          "text": "(d) Carry back funds. An institution may carry back and expend in the previous award year up to 10 percent of the sum of its initial and supplemental FSEOG allocations for the current award year. The institution's official allocation letter represents the Secretary's approval to carry back funds."
+        },
+        {
+          "id": "p-676.18(e)",
+          "text": "(e) Use of funds carried forward and carried back. An institution may use the funds carried forward or carried back under paragraphs (c) and (d) of this section, respectively, for activities described in paragraph (a) of this section."
+        },
+        {
+          "id": "p-676.18(f)",
+          "text": "(f) Carry back funds for summer FSEOG awards. An institution may carry back and expend in the previous award year any portion of its initial and supplemental FSEOG allocations for the current award year to make awards to eligible students for payment periods that begin on or after May 1 of the previous award year but end prior to the beginning of the current award year."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.18(a)",
+          "label": "a",
+          "text": "(a) General. An institution may use its FSEOG allocation and reallocation only for— (1) Making grants to eligible students; and (2) Paying administrative expenses as provided for in 34 CFR 673.7.",
+          "children": [
+            {
+              "id": "p-676.18(a)(1)",
+              "label": "1",
+              "text": "(1) Making grants to eligible students; and",
+              "children": []
+            },
+            {
+              "id": "p-676.18(a)(2)",
+              "label": "2",
+              "text": "(2) Paying administrative expenses as provided for in 34 CFR 673.7.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.18(b)",
+          "label": "b",
+          "text": "(b) Transfer back of funds to FWS. An institution shall transfer back to the FWS program any funds unexpended at the end of the award year that it transferred to the FSEOG program from the FWS program.",
+          "children": []
+        },
+        {
+          "id": "p-676.18(c)",
+          "label": "c",
+          "text": "(c) Carry forward funds. (1) An institution may carry forward and expend in the next award year up to 10 percent of the sum of its initial and supplemental FSEOG allocations for the current award year. (2) Before an institution may spend its current year FSEOG allocation, it must spend any funds carried forward from the previous year.",
+          "children": [
+            {
+              "id": "p-676.18(c)(1)",
+              "label": "1",
+              "text": "(1) An institution may carry forward and expend in the next award year up to 10 percent of the sum of its initial and supplemental FSEOG allocations for the current award year.",
+              "children": []
+            },
+            {
+              "id": "p-676.18(c)(2)",
+              "label": "2",
+              "text": "(2) Before an institution may spend its current year FSEOG allocation, it must spend any funds carried forward from the previous year.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.18(d)",
+          "label": "d",
+          "text": "(d) Carry back funds. An institution may carry back and expend in the previous award year up to 10 percent of the sum of its initial and supplemental FSEOG allocations for the current award year. The institution's official allocation letter represents the Secretary's approval to carry back funds.",
+          "children": []
+        },
+        {
+          "id": "p-676.18(e)",
+          "label": "e",
+          "text": "(e) Use of funds carried forward and carried back. An institution may use the funds carried forward or carried back under paragraphs (c) and (d) of this section, respectively, for activities described in paragraph (a) of this section.",
+          "children": []
+        },
+        {
+          "id": "p-676.18(f)",
+          "label": "f",
+          "text": "(f) Carry back funds for summer FSEOG awards. An institution may carry back and expend in the previous award year any portion of its initial and supplemental FSEOG allocations for the current award year to make awards to eligible students for payment periods that begin on or after May 1 of the previous award year but end prior to the beginning of the current award year.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.18",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.18",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.18 Use of funds.",
+      "section_ref": "§676.18",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.19",
+      "heading": "§ 676.19 Fiscal procedures and records.",
+      "paragraphs": [
+        {
+          "id": "p-676.19(a)",
+          "text": "(a) Fiscal Procedures. (1) In administering its FSEOG program, an institution shall establish and maintain an internal control system of checks and balances that insures that no office can both authorize payments and disburse funds to students. (2) An institution shall maintain funds received under this part in accordance with the requirements in § 668.163."
+        },
+        {
+          "id": "p-676.19(a)(1)",
+          "text": "(1) In administering its FSEOG program, an institution shall establish and maintain an internal control system of checks and balances that insures that no office can both authorize payments and disburse funds to students."
+        },
+        {
+          "id": "p-676.19(a)(2)",
+          "text": "(2) An institution shall maintain funds received under this part in accordance with the requirements in § 668.163."
+        },
+        {
+          "id": "p-676.19(b)",
+          "text": "(b) Records and reporting. (1) An institution shall follow the record retention and examination provisions in this part and in 34 CFR 668.24. (2) An institution shall establish and maintain program and fiscal records that are reconciled at least monthly. (3) Each year an institution shall submit a Fiscal Operations Report plus other information the Secretary requires. The institution shall insure that the information reported is accurate and shall submit it on the form and at the time specified by the Secretary."
+        },
+        {
+          "id": "p-676.19(b)(1)",
+          "text": "(1) An institution shall follow the record retention and examination provisions in this part and in 34 CFR 668.24."
+        },
+        {
+          "id": "p-676.19(b)(2)",
+          "text": "(2) An institution shall establish and maintain program and fiscal records that are reconciled at least monthly."
+        },
+        {
+          "id": "p-676.19(b)(3)",
+          "text": "(3) Each year an institution shall submit a Fiscal Operations Report plus other information the Secretary requires. The institution shall insure that the information reported is accurate and shall submit it on the form and at the time specified by the Secretary."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.19(a)",
+          "label": "a",
+          "text": "(a) Fiscal Procedures. (1) In administering its FSEOG program, an institution shall establish and maintain an internal control system of checks and balances that insures that no office can both authorize payments and disburse funds to students. (2) An institution shall maintain funds received under this part in accordance with the requirements in § 668.163.",
+          "children": [
+            {
+              "id": "p-676.19(a)(1)",
+              "label": "1",
+              "text": "(1) In administering its FSEOG program, an institution shall establish and maintain an internal control system of checks and balances that insures that no office can both authorize payments and disburse funds to students.",
+              "children": []
+            },
+            {
+              "id": "p-676.19(a)(2)",
+              "label": "2",
+              "text": "(2) An institution shall maintain funds received under this part in accordance with the requirements in § 668.163.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.19(b)",
+          "label": "b",
+          "text": "(b) Records and reporting. (1) An institution shall follow the record retention and examination provisions in this part and in 34 CFR 668.24. (2) An institution shall establish and maintain program and fiscal records that are reconciled at least monthly. (3) Each year an institution shall submit a Fiscal Operations Report plus other information the Secretary requires. The institution shall insure that the information reported is accurate and shall submit it on the form and at the time specified by the Secretary.",
+          "children": [
+            {
+              "id": "p-676.19(b)(1)",
+              "label": "1",
+              "text": "(1) An institution shall follow the record retention and examination provisions in this part and in 34 CFR 668.24.",
+              "children": []
+            },
+            {
+              "id": "p-676.19(b)(2)",
+              "label": "2",
+              "text": "(2) An institution shall establish and maintain program and fiscal records that are reconciled at least monthly.",
+              "children": []
+            },
+            {
+              "id": "p-676.19(b)(3)",
+              "label": "3",
+              "text": "(3) Each year an institution shall submit a Fiscal Operations Report plus other information the Secretary requires. The institution shall insure that the information reported is accurate and shall submit it on the form and at the time specified by the Secretary.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.19",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.19",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.19 Fiscal procedures and records.",
+      "section_ref": "§676.19",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.20",
+      "heading": "§ 676.20 Minimum and maximum FSEOG awards.",
+      "paragraphs": [
+        {
+          "id": "p-676.20(a)",
+          "text": "(a) An institution may award an FSEOG for an academic year in an amount it determines a student needs to continue his or her studies. However, except as provided in paragraph (c) of this section, an FSEOG may not be awarded for a full academic year that is— (1) Less than $100; or (2) More than $4,000."
+        },
+        {
+          "id": "p-676.20(a)(1)",
+          "text": "(1) Less than $100; or"
+        },
+        {
+          "id": "p-676.20(a)(2)",
+          "text": "(2) More than $4,000."
+        },
+        {
+          "id": "p-676.20(b)",
+          "text": "(b) For a student enrolled for less than a full academic year, the minimum allowable FSEOG may be proportionately reduced."
+        },
+        {
+          "id": "p-676.20(c)",
+          "text": "(c) The maximum amount of the FSEOG may be increased from $4,000 to as much as $4,400 for a student participating in a program of study abroad that is approved for credit by the home institution, if reasonable costs for the study abroad program exceed the cost of attendance at the home institution."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.20(a)",
+          "label": "a",
+          "text": "(a) An institution may award an FSEOG for an academic year in an amount it determines a student needs to continue his or her studies. However, except as provided in paragraph (c) of this section, an FSEOG may not be awarded for a full academic year that is— (1) Less than $100; or (2) More than $4,000.",
+          "children": [
+            {
+              "id": "p-676.20(a)(1)",
+              "label": "1",
+              "text": "(1) Less than $100; or",
+              "children": []
+            },
+            {
+              "id": "p-676.20(a)(2)",
+              "label": "2",
+              "text": "(2) More than $4,000.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.20(b)",
+          "label": "b",
+          "text": "(b) For a student enrolled for less than a full academic year, the minimum allowable FSEOG may be proportionately reduced.",
+          "children": []
+        },
+        {
+          "id": "p-676.20(c)",
+          "label": "c",
+          "text": "(c) The maximum amount of the FSEOG may be increased from $4,000 to as much as $4,400 for a student participating in a program of study abroad that is approved for credit by the home institution, if reasonable costs for the study abroad program exceed the cost of attendance at the home institution.",
+          "children": []
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.20",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.20",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.20 Minimum and maximum FSEOG awards.",
+      "section_ref": "§676.20",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    },
+    {
+      "section": "676.21",
+      "heading": "§ 676.21 FSEOG Federal share limitations.",
+      "paragraphs": [
+        {
+          "id": "p-676.21(a)",
+          "text": "(a) Except as provided in paragraph (b) of this section, for the 1993-94 award year and subsequent award years, the Federal share of the FSEOG awards made by an institution may not exceed 75 percent of the amount of FSEOG awards made by that institution."
+        },
+        {
+          "id": "p-676.21(b)",
+          "text": "(b) The Secretary authorizes, for each award year, a Federal share of 100 percent of the FSEOGs awarded to students by an institution that— (1) Is designated as an eligible institution under— (i) The Developing Hispanic-Serving Institutions Program (34 CFR part 606); (ii) The Strengthening Institutions Program, American Indian Tribally Controlled Colleges and Universities Program, or Alaska Native and Native Hawaiian-Serving Institutions Program (34 CFR part 607); or (iii) The Strengthening Historically Black Colleges and Universities Program (34 CFR part 608); and (2) Requests that increased Federal share as part of its regular SEOG funding application for that year."
+        },
+        {
+          "id": "p-676.21(b)(1)",
+          "text": "(1) Is designated as an eligible institution under— (i) The Developing Hispanic-Serving Institutions Program (34 CFR part 606); (ii) The Strengthening Institutions Program, American Indian Tribally Controlled Colleges and Universities Program, or Alaska Native and Native Hawaiian-Serving Institutions Program (34 CFR part 607); or (iii) The Strengthening Historically Black Colleges and Universities Program (34 CFR part 608); and"
+        },
+        {
+          "id": "p-676.21(b)(1)(i)",
+          "text": "(i) The Developing Hispanic-Serving Institutions Program (34 CFR part 606);"
+        },
+        {
+          "id": "p-676.21(b)(1)(ii)",
+          "text": "(ii) The Strengthening Institutions Program, American Indian Tribally Controlled Colleges and Universities Program, or Alaska Native and Native Hawaiian-Serving Institutions Program (34 CFR part 607); or"
+        },
+        {
+          "id": "p-676.21(b)(1)(iii)",
+          "text": "(iii) The Strengthening Historically Black Colleges and Universities Program (34 CFR part 608); and"
+        },
+        {
+          "id": "p-676.21(b)(2)",
+          "text": "(2) Requests that increased Federal share as part of its regular SEOG funding application for that year."
+        },
+        {
+          "id": "p-676.21(c)",
+          "text": "(c) The non-Federal share of SEOG awards must be made from the institution's own resources, which include for this purpose— (1) Institutional grants and scholarships; (2) Tuition or fee waivers; (3) State scholarships; and (4) Foundation or other charitable organization funds."
+        },
+        {
+          "id": "p-676.21(c)(1)",
+          "text": "(1) Institutional grants and scholarships;"
+        },
+        {
+          "id": "p-676.21(c)(2)",
+          "text": "(2) Tuition or fee waivers;"
+        },
+        {
+          "id": "p-676.21(c)(3)",
+          "text": "(3) State scholarships; and"
+        },
+        {
+          "id": "p-676.21(c)(4)",
+          "text": "(4) Foundation or other charitable organization funds."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "p-676.21(a)",
+          "label": "a",
+          "text": "(a) Except as provided in paragraph (b) of this section, for the 1993-94 award year and subsequent award years, the Federal share of the FSEOG awards made by an institution may not exceed 75 percent of the amount of FSEOG awards made by that institution.",
+          "children": []
+        },
+        {
+          "id": "p-676.21(b)",
+          "label": "b",
+          "text": "(b) The Secretary authorizes, for each award year, a Federal share of 100 percent of the FSEOGs awarded to students by an institution that— (1) Is designated as an eligible institution under— (i) The Developing Hispanic-Serving Institutions Program (34 CFR part 606); (ii) The Strengthening Institutions Program, American Indian Tribally Controlled Colleges and Universities Program, or Alaska Native and Native Hawaiian-Serving Institutions Program (34 CFR part 607); or (iii) The Strengthening Historically Black Colleges and Universities Program (34 CFR part 608); and (2) Requests that increased Federal share as part of its regular SEOG funding application for that year.",
+          "children": [
+            {
+              "id": "p-676.21(b)(1)",
+              "label": "1",
+              "text": "(1) Is designated as an eligible institution under— (i) The Developing Hispanic-Serving Institutions Program (34 CFR part 606); (ii) The Strengthening Institutions Program, American Indian Tribally Controlled Colleges and Universities Program, or Alaska Native and Native Hawaiian-Serving Institutions Program (34 CFR part 607); or (iii) The Strengthening Historically Black Colleges and Universities Program (34 CFR part 608); and",
+              "children": [
+                {
+                  "id": "p-676.21(b)(1)(i)",
+                  "label": "i",
+                  "text": "(i) The Developing Hispanic-Serving Institutions Program (34 CFR part 606);",
+                  "children": []
+                },
+                {
+                  "id": "p-676.21(b)(1)(ii)",
+                  "label": "ii",
+                  "text": "(ii) The Strengthening Institutions Program, American Indian Tribally Controlled Colleges and Universities Program, or Alaska Native and Native Hawaiian-Serving Institutions Program (34 CFR part 607); or",
+                  "children": []
+                },
+                {
+                  "id": "p-676.21(b)(1)(iii)",
+                  "label": "iii",
+                  "text": "(iii) The Strengthening Historically Black Colleges and Universities Program (34 CFR part 608); and",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "p-676.21(b)(2)",
+              "label": "2",
+              "text": "(2) Requests that increased Federal share as part of its regular SEOG funding application for that year.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "p-676.21(c)",
+          "label": "c",
+          "text": "(c) The non-Federal share of SEOG awards must be made from the institution's own resources, which include for this purpose— (1) Institutional grants and scholarships; (2) Tuition or fee waivers; (3) State scholarships; and (4) Foundation or other charitable organization funds.",
+          "children": [
+            {
+              "id": "p-676.21(c)(1)",
+              "label": "1",
+              "text": "(1) Institutional grants and scholarships;",
+              "children": []
+            },
+            {
+              "id": "p-676.21(c)(2)",
+              "label": "2",
+              "text": "(2) Tuition or fee waivers;",
+              "children": []
+            },
+            {
+              "id": "p-676.21(c)(3)",
+              "label": "3",
+              "text": "(3) State scholarships; and",
+              "children": []
+            },
+            {
+              "id": "p-676.21(c)(4)",
+              "label": "4",
+              "text": "(4) Foundation or other charitable organization funds.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "source_name": "ecfr.gov::section-676.21",
+      "source_url": "https://www.ecfr.gov/current/title-34/section-676.21",
+      "source_type": "cfr",
+      "authority_level": "regulation",
+      "document_title": "§ 676.21 FSEOG Federal share limitations.",
+      "section_ref": "§676.21",
+      "effective_date": "",
+      "ingestion_date": "2026-03-30",
+      "volume": "",
+      "chapter": "VI",
+      "title": "34",
+      "part": ""
+    }
+  ]
+}

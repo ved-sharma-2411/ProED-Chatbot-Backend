@@ -1,0 +1,14 @@
+{
+  "part": "682",
+  "files": {
+    "sections_json": "data/raw_html/ecfr\\parts_api\\part-682\\part-682_sections.json",
+    "chunks_json": "data/raw_html/ecfr\\parts_api\\part-682\\part-682_chunks.json"
+  },
+  "counts": {
+    "sections": 72,
+    "base_chunks": 197,
+    "level_chunks": 1156
+  },
+  "issue_date": "2026-03-13",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}

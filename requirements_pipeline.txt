@@ -1,0 +1,9 @@
+httpx
+beautifulsoup4
+lxml
+pinecone
+openai
+sentence-transformers
+fastapi
+uvicorn
+pydantic

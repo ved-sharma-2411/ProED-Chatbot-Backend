@@ -1,0 +1,15 @@
+{
+  "part": "600",
+  "part_url": "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-600",
+  "files": {
+    "part_html": "data/raw_html/ecfr\\parts\\part-600\\part-600.html",
+    "sections_json": "data/raw_html/ecfr\\parts\\part-600\\part-600_sections.json",
+    "chunks_json": "data/raw_html/ecfr\\parts\\part-600\\part-600_chunks.json"
+  },
+  "counts": {
+    "sections": 28,
+    "base_chunks": 93,
+    "level_chunks": 986
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}

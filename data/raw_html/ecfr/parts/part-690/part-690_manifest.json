@@ -1,0 +1,15 @@
+{
+  "part": "690",
+  "part_url": "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-690",
+  "files": {
+    "part_html": "data/raw_html/ecfr\\parts\\part-690\\part-690.html",
+    "sections_json": "data/raw_html/ecfr\\parts\\part-690\\part-690_sections.json",
+    "chunks_json": "data/raw_html/ecfr\\parts\\part-690\\part-690_chunks.json"
+  },
+  "counts": {
+    "sections": 26,
+    "base_chunks": 38,
+    "level_chunks": 363
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}

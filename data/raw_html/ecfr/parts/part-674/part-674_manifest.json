@@ -1,0 +1,15 @@
+{
+  "part": "674",
+  "part_url": "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-674",
+  "files": {
+    "part_html": "data/raw_html/ecfr\\parts\\part-674\\part-674.html",
+    "sections_json": "data/raw_html/ecfr\\parts\\part-674\\part-674_sections.json",
+    "chunks_json": "data/raw_html/ecfr\\parts\\part-674\\part-674_chunks.json"
+  },
+  "counts": {
+    "sections": 49,
+    "base_chunks": 123,
+    "level_chunks": 1473
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}
