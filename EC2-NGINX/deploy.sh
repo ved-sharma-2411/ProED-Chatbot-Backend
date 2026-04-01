@@ -24,6 +24,11 @@ cp -r ./app/* "$APP_DIR/app/"
 
 echo "==> [4/7] Creating Python virtual environment and installing deps..."
 python3 -m venv "$VENV_DIR"
+if [ ! -d "$VENV_DIR" ]; then
+	echo "ERROR: venv was not created at $VENV_DIR"
+	echo "Make sure python3-venv is installed and you are not running from a read-only path."
+	exit 1
+fi
 "$VENV_DIR/bin/pip" install --upgrade pip
 "$VENV_DIR/bin/pip" install -r "$APP_DIR/app/requirements.txt"
 

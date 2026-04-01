@@ -28,12 +28,12 @@ EC2-NGINX/
 
 ## Prerequisites
 
-| What | Requirement |
-|---|---|
-| EC2 Instance | Ubuntu 22.04 LTS (t3.medium or larger recommended) |
-| Security Group | Inbound: port **80** (HTTP), port **22** (SSH) |
-| Keys | Your `.pem` SSH key pair |
-| API Keys | `PINECONE_API_KEY` and `GROQ_API_KEY` ready |
+| What           | Requirement                                        |
+| -------------- | -------------------------------------------------- |
+| EC2 Instance   | Ubuntu 22.04 LTS (t3.medium or larger recommended) |
+| Security Group | Inbound: port **80** (HTTP), port **22** (SSH)     |
+| Keys           | Your `.pem` SSH key pair                           |
+| API Keys       | `PINECONE_API_KEY` and `GROQ_API_KEY` ready        |
 
 > For HTTPS (recommended for production) also open port **443** and follow Step 9.
 
@@ -77,7 +77,7 @@ From your **local machine** (open a second terminal):
 scp -i your-key.pem -r /path/to/EC2-NGINX ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/
 
 # Example (Windows Git Bash path):
-scp -i your-key.pem -r "C:/Users/Lenovo/Desktop/web-dev/scrapping/EC2-NGINX" ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/
+scp -i your-key.pem -r "C:/Users/Lenovo/Desktop/web-dev/scrapping/ProED-Chatbot-Backend/EC2-NGINX" ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/
 ```
 
 ---
@@ -93,12 +93,51 @@ bash deploy.sh
 ```
 
 The script will:
+
 - Install Python 3, pip, venv, Nginx
 - Create `/home/ubuntu/proed-rag/app/` with all app files
 - Create a Python virtual environment at `/home/ubuntu/proed-rag/venv/`
 - Install all Python dependencies
 - Configure Nginx and enable it
 - Register the systemd service (but NOT start it yet)
+
+> **Manual setup (if deploy.sh fails)**
+>
+> Run these commands on the EC2 instance:
+>
+> ```bash
+> # Update packages
+> sudo apt-get update -y
+>
+> # Install Python + venv + Nginx
+> sudo apt-get install -y python3 python3-pip python3-venv nginx curl
+>
+> # Create app directory
+> sudo mkdir -p /home/ubuntu/proed-rag/app
+> sudo chown -R ubuntu:ubuntu /home/ubuntu/proed-rag
+>
+> # Copy app files (assumes EC2-NGINX is in /home/ubuntu)
+> cp -r /home/ubuntu/ProED-Chatbot-Backend/EC2-NGINX/app/* /home/ubuntu/proed-rag/app/
+>
+> # Create venv + install deps
+> python3 -m venv /home/ubuntu/proed-rag/venv
+> source /home/ubuntu/proed-rag/venv/bin/activate
+> pip install --upgrade pip
+> pip install -r /home/ubuntu/proed-rag/app/requirements.txt
+>
+> # Configure Nginx
+> sudo cp /home/ubuntu/ProED-Chatbot-Backend/EC2-NGINX/nginx/proed-rag.conf /etc/nginx/sites-available/proed-rag
+> sudo ln -sf /etc/nginx/sites-available/proed-rag /etc/nginx/sites-enabled/proed-rag
+> sudo rm -f /etc/nginx/sites-enabled/default
+> sudo nginx -t
+> sudo systemctl reload nginx
+> sudo systemctl enable nginx
+>
+> # Configure systemd service
+> sudo cp /home/ubuntu/ProED-Chatbot-Backend/EC2-NGINX/systemd/proed-rag.service /etc/systemd/system/proed-rag.service
+> sudo systemctl daemon-reload
+> sudo systemctl enable proed-rag
+> ```
 
 ---
 
@@ -157,11 +196,13 @@ Open in browser: `http://<EC2_PUBLIC_IP>/docs` — you'll see the interactive Fa
 ### Step 8 — Test the API Endpoints
 
 **Root:**
+
 ```bash
 curl http://<EC2_PUBLIC_IP>/
 ```
 
 **Ask endpoint:**
+
 ```bash
 curl -X POST http://<EC2_PUBLIC_IP>/ask \
   -H "Content-Type: application/json" \
@@ -169,6 +210,7 @@ curl -X POST http://<EC2_PUBLIC_IP>/ask \
 ```
 
 **Query-only endpoint:**
+
 ```bash
 curl -X POST http://<EC2_PUBLIC_IP>/query \
   -H "Content-Type: application/json" \
@@ -192,15 +234,15 @@ Certbot will automatically edit your Nginx config and set up auto-renewal.
 
 ## Managing the Service
 
-| Action | Command |
-|---|---|
-| Start | `sudo systemctl start proed-rag` |
-| Stop | `sudo systemctl stop proed-rag` |
-| Restart | `sudo systemctl restart proed-rag` |
-| Status | `sudo systemctl status proed-rag` |
-| View logs (live) | `sudo journalctl -u proed-rag -f` |
+| Action           | Command                                 |
+| ---------------- | --------------------------------------- |
+| Start            | `sudo systemctl start proed-rag`        |
+| Stop             | `sudo systemctl stop proed-rag`         |
+| Restart          | `sudo systemctl restart proed-rag`      |
+| Status           | `sudo systemctl status proed-rag`       |
+| View logs (live) | `sudo journalctl -u proed-rag -f`       |
 | View access logs | `tail -f /var/log/proed-rag/access.log` |
-| View error logs | `tail -f /var/log/proed-rag/error.log` |
+| View error logs  | `tail -f /var/log/proed-rag/error.log`  |
 
 The service is set to **auto-start on reboot** (`systemctl enable`).
 
@@ -208,12 +250,12 @@ The service is set to **auto-start on reboot** (`systemctl enable`).
 
 ## Updating the App Code
 
-When you change `api_server.py` or `rag_pinecone.py` locally:
+When you change `api_server.py` or `rag_pinecone.py` locally (inside `ProED-Chatbot-Backend/EC2-NGINX/app`):
 
 ```bash
 # 1. Upload new files from local machine
-scp -i your-key.pem app/api_server.py ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/proed-rag/app/
-scp -i your-key.pem app/rag_pinecone.py ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/proed-rag/app/
+scp -i your-key.pem ProED-Chatbot-Backend/EC2-NGINX/app/api_server.py ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/proed-rag/app/
+scp -i your-key.pem ProED-Chatbot-Backend/EC2-NGINX/app/rag_pinecone.py ubuntu@<EC2_PUBLIC_IP>:/home/ubuntu/proed-rag/app/
 
 # 2. Restart the service on EC2
 sudo systemctl restart proed-rag
@@ -224,9 +266,11 @@ sudo systemctl restart proed-rag
 ## Troubleshooting
 
 **Service fails to start:**
+
 ```bash
 sudo journalctl -u proed-rag -n 100 --no-pager
 ```
+
 Most common cause: missing `.env` file or wrong API keys.
 
 **502 Bad Gateway from Nginx:**
