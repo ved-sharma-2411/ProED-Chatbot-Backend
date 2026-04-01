@@ -6,5 +6,7 @@ openai
 sentence-transformers
 google-genai
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
+python-dotenv
+gunicorn

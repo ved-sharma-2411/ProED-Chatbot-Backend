@@ -59,6 +59,7 @@ BASE_URL = "https://www.ecfr.gov"
 TITLE = "34"
 DEFAULT_PARTS = ["600", "674", "675", "676", "668", "682", "685", "686", "690"]
 DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "proed-chatbot")
 PARA_MARKERS_RE = re.compile(r"^((?:\([^)]+\)\s*)+)")
 SINGLE_MARKER_RE = re.compile(r"\(([^)]+)\)")
 
@@ -198,6 +199,7 @@ def run_pipeline(
     output_dir: str,
     namespace: str,
     embedding_model: str,
+    index_name: str,
     min_tokens: int,
     max_tokens: int,
     overlap_tokens: int,
@@ -211,6 +213,7 @@ def run_pipeline(
     load_dotenv()
     os.environ["EMBEDDING_MODEL"] = embedding_model
     print(f"Using embedding model: {embedding_model}")
+    print(f"Using Pinecone index: {index_name}")
 
     all_chunk_files: List[str] = []
 
@@ -341,7 +344,13 @@ def run_pipeline(
     print(f"\nIngesting {len(all_chunk_files)} part chunk files into namespace '{namespace}'...")
     for path in all_chunk_files:
         try:
-            ingest_chunks(input_path=path, namespace=namespace, chunk_source="base_chunks")
+            ingest_chunks(
+                input_path=path,
+                namespace=namespace,
+                chunk_source="base_chunks",
+                index_name=index_name,
+                embedding_model=embedding_model,
+            )
         except Exception as exc:
             print(f"[WARN] Ingest failed for {path}: {exc}")
 
@@ -354,6 +363,7 @@ def build_cli() -> argparse.ArgumentParser:
     p.add_argument("--output-dir", default="data/raw_html/ecfr")
     p.add_argument("--namespace", default="default")
     p.add_argument("--embedding-model", default=DEFAULT_EMBEDDING_MODEL)
+    p.add_argument("--index-name", default=DEFAULT_INDEX_NAME)
     p.add_argument("--min-tokens", type=int, default=200)
     p.add_argument("--max-tokens", type=int, default=1400)
     p.add_argument("--overlap-tokens", type=int, default=200)
@@ -368,6 +378,7 @@ def main() -> None:
         output_dir=args.output_dir,
         namespace=args.namespace,
         embedding_model=args.embedding_model,
+        index_name=args.index_name,
         min_tokens=args.min_tokens,
         max_tokens=args.max_tokens,
         overlap_tokens=args.overlap_tokens,

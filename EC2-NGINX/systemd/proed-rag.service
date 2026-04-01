@@ -1,0 +1,39 @@
+[Unit]
+Description=ProEd RAG FastAPI Server
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=exec
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/proed-rag/app
+
+# Load environment variables from .env file
+EnvironmentFile=/home/ubuntu/proed-rag/app/.env
+
+# Run with Gunicorn + Uvicorn workers
+# -w 2 = 2 workers (use 2*CPU_cores for CPU-bound; keep low for GPU/memory-heavy models)
+# -k uvicorn.workers.UvicornWorker = async worker compatible with FastAPI
+# --bind 127.0.0.1:8000 = only listen locally (Nginx is the public face)
+ExecStart=/home/ubuntu/proed-rag/venv/bin/gunicorn \
+    api_server:app \
+    -w 2 \
+    -k uvicorn.workers.UvicornWorker \
+    --bind 127.0.0.1:8000 \
+    --timeout 120 \
+    --graceful-timeout 30 \
+    --keep-alive 5 \
+    --log-level info \
+    --access-logfile /var/log/proed-rag/access.log \
+    --error-logfile /var/log/proed-rag/error.log
+
+# Restart policy
+Restart=on-failure
+RestartSec=5s
+
+# Resource limits
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
