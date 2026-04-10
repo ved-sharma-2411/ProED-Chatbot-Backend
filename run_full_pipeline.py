@@ -56,7 +56,7 @@ build_logical_chunks = _load_build_logical_chunks()
 
 
 ECFR_BASE = "https://www.ecfr.gov"
-DEFAULT_PARTS = ["600", "674", "675", "676", "668", "682", "685", "686", "690"]
+DEFAULT_PARTS = ["691"]
 DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 DEFAULT_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "proed-chatbot")
 SECTION_ID_RE = re.compile(r"^p-(?P<section>\d+(?:\.\d+)+)(?P<suffix>(?:\([^)]+\))*)$")

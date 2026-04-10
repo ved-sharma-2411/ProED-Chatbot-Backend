@@ -1,5 +1,5 @@
 {
-  "last_llm_call_ts": 1775055489.9591844,
+  "last_llm_call_ts": 1775057365.640914,
   "query_cache": {
     "what is p-668.32(e)(5)(ii)": {
       "answer": "P-668.32(e)(5)(ii) refers to a regulation stating that an individual \"Is enrolled in an eligible career pathway program as defined in § 668.2\" [SOURCE 1].",
@@ -87,7 +87,7 @@
     },
     "if a student have the criminal offence can apply for financial aid program just answer me in just or no directly": {
       "answer": "No, a student with a criminal offense may be ineligible to receive title IV, HEA program funds, as stated in §668.40(a) of the ecfr.gov regulations.",
-      "ts": 1775053533.2266996
+      "ts": 1775057098.938271
     },
     "if a student have the criminal offence can apply for financial aid program answer me directly in yes or no": {
       "answer": "No, a student with a criminal offense may be ineligible to receive title IV, HEA program funds, as stated in §668.40(a) of the ecfr.gov regulations, which specifies that a student is ineligible to receive title IV, HEA program funds if they have been convicted of an offense under any Federal or State law involving the possession or sale of illegal drugs.",
@@ -124,6 +124,18 @@
     "ve": {
       "answer": "Your input \"ve\" is not a question. Please provide a question to receive a concise and accurate answer with citations from the provided sources.\n\nCitations:\n- 1. §682.211(e)(1) (https://www.ecfr.gov/current/title-34/section-682.211)\n- 2. §682.211(a)(1) (https://www.ecfr.gov/current/title-34/section-682.211)\n- 3. §682.411(k) (https://www.ecfr.gov/current/title-34/section-682.411)",
       "ts": 1775055489.9591844
+    },
+    "what all your knowlede base": {
+      "answer": "My knowledge base consists of regulations from the Electronic Code of Federal Regulations (eCFR) related to Title 34, specifically sections §668.100 (https://www.ecfr.gov/current/title-34/section-668.100), §668.50 (https://www.ecfr.gov/current/title-34/section-668.50), §668.29 (https://www.ecfr.gov/current/title-34/section-668.29), §668.177 (https://www.ecfr.gov/current/title-34/section-668.177), §668.202(a) (https://www.ecfr.gov/current/title-34/section-668.202), §668.15 (https://www.ecfr.gov/current/title-34/section-668.15), §668.198 (https://www.ecfr.gov/current/title-34/section-668.198), §668.79 (https://www.ecfr.gov/current/title-34/section-668.79), §668.147 (https://www.ecfr.gov/current/title-34/section-668.147), and §668.183(a) (https://www.ecfr.gov/current/title-34/section-668.183). These sections provide information on various aspects of federal student aid programs, including cohort default rates (§668.202(a), §668.183(a)), ability to benefit (§668.147), and general provisions (§668.100, §668.50, §668.29, §668.177, §668.15, §668.198, §668.79).",
+      "ts": 1775057002.0873284
+    },
+    "how can a student apply for the financial help": {
+      "answer": "To apply for financial help, a student must complete and submit the Free Application for Federal Student Aid (FAFSA) in accordance with the instructions in the application (§685.201(a), https://www.ecfr.gov/current/title-34/section-685.201; §686.10(a), https://www.ecfr.gov/current/title-34/section-686.10). The student must also provide any additional information requested by the Secretary and the institution (§686.10(c), https://www.ecfr.gov/current/title-34/section-686.10). Furthermore, the institution must describe the procedures and forms by which students apply for assistance (§668.42(b)(1), https://www.ecfr.gov/current/title-34/section-668.42).",
+      "ts": 1775057206.1050267
+    },
+    "what is the maximum amount a student can borrow?": {
+      "answer": "The maximum amount a student can borrow varies depending on the type of loan and the student's level of study. \n\nFor Federal Perkins Loans and NDSLs, the maximum annual amount is $5,500 for undergraduate students and $8,000 for graduate or professional students (34 CFR §674.12(a)). The aggregate unpaid principal amount may not exceed $27,500 for undergraduate students who have completed two years of a program, $60,000 for graduate or professional students, and $11,000 for other students (34 CFR §674.12(b)).\n\nFor Stafford Loans, the aggregate unpaid principal amount may not exceed $73,000 for undergraduate study, and $138,500 for graduate or professional students, including loans for undergraduate study (34 CFR §682.204(d)(5) and 34 CFR §685.203(d)(3)).\n\nFor Direct Subsidized Loans, the aggregate unpaid principal amount may not exceed $23,000 for undergraduate students and $65,500 for graduate or professional students (34 CFR §685.203(d)(1) and (2)).\n\nFor Direct Unsubsidized Loans, the aggregate unpaid principal amount may not exceed $31,000 for dependent undergraduate students, $57,500 for independent undergraduate students, and $138,500 for graduate or professional students (34 CFR §685.203(e)(1), (2), and (3)). \n\nIn general, the total amount a student may borrow for any academic year of study may not exceed the student's cost of attendance less other estimated financial assistance for that student (34 CFR §685.301(a)(6)).",
+      "ts": 1775057365.640914
     }
   }
 }

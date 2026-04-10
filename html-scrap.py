@@ -4,12 +4,12 @@ import json
 from datetime import date
 from urllib.parse import urlparse
 
-SECTION_URL = "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-668/section-668.32"
+SECTION_URL = "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-668/section-691"
 
 SAVE_DIR = "data/raw_html/ecfr"
 os.makedirs(SAVE_DIR, exist_ok=True)
-RAW_HTML_PATH = f"{SAVE_DIR}/section_668_32.html"
-RAW_META_PATH = f"{SAVE_DIR}/section_668_32_source.json"
+RAW_HTML_PATH = f"{SAVE_DIR}/section_691.html"
+RAW_META_PATH = f"{SAVE_DIR}/section_691_source.json"
 BLOCKED_HTML_PATH = f"{SAVE_DIR}/section_668_32_blocked.html"
 
 BLOCK_MARKERS = [
